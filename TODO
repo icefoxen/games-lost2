@@ -1,0 +1,11 @@
+BIG OL' FORK.  Let's just make a damn arena-shooter.  Baddies spawn, come at
+you, get shot, blow up.
+
+Collision detection
+Creating and destroying objects
+Make time and input not happen when the window is not focussed --just force a
+calc and input update when the window is focussed, and pause things when it's
+unfocussed.
+Damage, death
+Levels/stages
+

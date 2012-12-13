@@ -1,0 +1,144 @@
+Top-down space-y game.
+
+Plot is revealed by way of you writing in your journal.  Are you alone or not?
+I'm sorta inclined to think that you are (except for your cat, of course), but
+plot might be more interesting if you had companions.
+No mothership though; I don't want to COMPLETELY rip off of Starscape.
+
+Each level is relatively small...  One or a few screens.  No mini-map?  I
+can implement zooming the view in and out pretty easily....  we'll see.
+
+In each level there is a portal-gate-device-thingy to the next level; you have
+to collect enough resources to repair it, feed it enough energy to charge it,
+and then wait for it to open.  Be careful about arbitrary time limits, though.
+There are maybe 10ish levels.  Each one should take maybe 5-15 minutes to
+play.
+
+Call the ship the Little Bird.  Why not?
+
+
+
+You choose one of each type of weapon at a time, and have to return to base to
+rearm.
+Primary and secondary weapons?  Sure.
+
+Limited energy for the secondary weapons, that recharges.  Defenses probably
+also use it.
+
+Research costs money.  Upgrading old weapons to be comparable with new also
+costs money.  They're about comparable.  Thus, weapons should be different in
+behavior, not simply stronger or weaker.
+It should also be BEHAVIOUR, not just "does more damage vs. X".  So.
+
+Weapons:
+Sonic wave (mid-range, reliable)
+Grenade launcher (a la fireblossom, short range, high damage, dangerous)
+Pulser (Long-range, accurate, low damage)
+
+Secondaries:
+Rocket pods (how 'bout them?) (long range, multiple shots, think 'fussilade')
+Phantom Hammer (kaPEW)
+Pressor beam (make it POWERFUL, not one of these pussy "I move the enemy away
+very slowly" weapons.  It has to compete with the Phantom Hammer, remember)
+
+Defenses:
+Shield
+Deflector
+Afterburner (Thraddash torch)
+
+Specials?
+
+
+
+Base structures:
+Research lab
+Power generator
+Refinery
+Drone bay
+Turrets and defense modules
+Hanger/repair bay
+Remote repair module
+
+
+Enemies:
+Scouts
+Swarmers
+Fighters
+Gunboats
+Cruisers
+Carriers
+Dreadnoughts
+
+
+Mining:
+You go shoot rocks, and have little drones that go and scoop up the stuff that
+falls out of the rocks.  Good times.
+
+Music!  We need:
+Ambient
+Danger (for when They Come To Get You)
+Triumphant fight (for when You Kick Their Ass)
+Boss battle
+Escape (for when the portal is charged, the baddies are all up ons, and it's
+time to LEAVE)
+
+Good soundtracks:
+SC2 (of course)
+Tyrian?
+
+Good (specific) soundtracks:
+Don't Look Back
+Darwinia
+Battleships Forever
+That One Song from Ironseed!
+Iji
+
+
+Ideas:
+Screen-clearing weapon, with associated maniacal laughter.  Say, 3 per level.
+Or you have to build it, and it's quite expensive.  Or both!
+
+Do the RahXephon words-in-background effect, dude!
+
+Do you get to carry resources with you between levels?  Within limits, I
+suppose.
+
+Don't do time limits too hard.
+
+Do enemies have bases?  Or at least some kind of infrastructure you can
+attack?  MAYBE.  I'm inclined toward 'no', but mining ships might be
+interesting.
+
+Different resources?  Ironanium, boranium and germanium?
+
+Sigh... make textures work, if only procedural ones.  They're too damn useful.
+
+If you can make the ship change with what weapon and specials and such it has,
+that'd be awesome.
+
+As you progress, you start getting partially-built bases to keep from
+early-game tedium?
+
+Do enemies have the same sorts of defenses and specials that you do?  NOT
+RIGHT NOW.  (Though fighters with afterburners, and gunboats with rocket pods,
+and so on, does sound pretty awesome).
+
+Enemy repair drones?  Support ships?  Shield ships?  Tractor or pressor beam
+ships?
+
+See if you can make the swarmers use flocking algorithms!  :-D
+
+
+
+COLD HARD FACTS:
+Ship:
+Stats:
+Accel
+Max speed
+Turn rate
+Armor
+Energy capacity
+Energy regen
+
+Gameplay:
+Ten levels
